@@ -58,41 +58,53 @@
 
 
     <section>
-        <h1>Nuestros tipos de entrenamiento</h1>
-        <p>Todos nuestros entrenamientos se adaptan a todos los niveles, la exigencia es personalisada. Elije uno o convínalos según tus objetivos.</p>
+        <h1 class="text-center m-5">Tipos de entrenamiento</h1>
+        <p class="text-center">Todos nuestros entrenamientos se adaptan a todos los niveles, la exigencia es personalisada. Elije uno o convínalos según tus objetivos.</p>
     </section>
     
-    <main class="clases">
-        <div class="hiit">
-            <h2>HIIT</h2>
-            <p>El entrenamiento HIIT (High Intensity Interval Training) está compuesto por periodos repetitivos de ejercicios de alta intensidad desarrollados a la máxima velocidad o potencia intercalados con periodos de ejercicio de baja intensidad o reposo absoluto. 
-            Este tipo de entrenamiento supone un trabajo más exigente para las capacidades cardiorespiratorias, mejorando nuestra resistencia de forma notable y ha demostrado una gran eficacia de cara a la pérdida de peso.</p>
-            <div class="características">
-                <p>Adelgazar</p>  <!--¿Barras con bootstrap?-->
-                <p>Fuerza</p>
-                <p>Intensidad</p>
+    <main class="clases container">
+        <div class="hiit row my-5 border-top">
+            <div class="col-lg-7">
+                <h2 class="text-center m-3">HIIT</h2>
+                <p>El entrenamiento HIIT (High Intensity Interval Training) está compuesto por periodos repetitivos de ejercicios de alta intensidad desarrollados a la máxima velocidad o potencia intercalados con periodos de ejercicio de baja intensidad o reposo absoluto. 
+                Este tipo de entrenamiento supone un trabajo más exigente para las capacidades cardiorespiratorias, mejorando nuestra resistencia de forma notable y ha demostrado una gran eficacia de cara a la pérdida de peso.</p>
+                <div class="características">
+                    <p>Adelgazar</p>  <!--¿Barras con bootstrap?-->
+                    <p>Fuerza</p>
+                    <p>Intensidad</p>
+                </div>
             </div>
-            <img src="../Imágenes/Jump.jpg" alt="HIIT"> <!--MODIFICAR IMAGEN HIIT-->
+            <div class="col-5 d-none d-lg-block d-flex">
+            <img src="../Imágenes/Jump.jpg" alt="HIIT" class="img-fluid"> <!--MODIFICAR IMAGEN HIIT-->
+            </div>
         </div>
-        <div class="cross">
-            <h2>CROSS</h2>
-            <p>Nuestra clase de fuerza te hará más fuerte en series de ejercicios enfocados en peso. Diseñado para romper barreras, es una experiencia que sentirás (y verás) al día siguiente. Cuatro estaciones involucran dos ejercicios que se enfocan en grupos musculares opuestos. Con solo dos rondas para dominar, las secuencias dinámicas de peso lo llevarán a tus límites.</p>
-            <div class="características">
-                <p>Adelgazar</p>  <!--¿Barras con bootstrap?-->
-                <p>Fuerza</p>
-                <p>Intensidad</p>
+        <div class="cross row my-5 border-top">
+            <div class="col-5 d-none d-lg-block">
+                <img src="../Imágenes/Overhead-Squat.jpg" alt="CROSS" class="img-fluid"> <!--RECORTAR IMAGEN CROSS-->
             </div>
-            <img src="../Imágenes/Overhead-Squat.jpg" alt="CROSS"> <!--RECORTAR IMAGEN CROSS-->
+            <div class="col-lg-7">
+                <h2 class="text-center m-3">CROSS</h2>
+                <p>Nuestra clase de fuerza te hará más fuerte en series de ejercicios enfocados en peso. Diseñado para romper barreras, es una experiencia que sentirás (y verás) al día siguiente. Cuatro estaciones involucran dos ejercicios que se enfocan en grupos musculares opuestos. Con solo dos rondas para dominar, las secuencias dinámicas de peso lo llevarán a tus límites.</p>
+                <div class="características">
+                    <p>Adelgazar</p>  <!--¿Barras con bootstrap?-->
+                    <p>Fuerza</p>
+                    <p>Intensidad</p>
+                </div>
+            </div>
+           
         </div>
-        <div class="estiramiento">
-            <h2>ESTIRAMIENTO</h2>
-            <p>NLas clases de estiramiento son excelentes para aquellos que buscan un gran enfoque para reducir el estrés que se acumula en el cuerpo durante nuestra vida cotidiana. Esta clase te enseñará a conocer tu cuerpo y mejorar tu fuerza y ​​flexibilidad a través de una serie de ejercicios guiados por nuestros mejores entrenadores. Con estas sesiones maximizarás los resultados positivos que el estiramiento ofrece a tu mente y cuerpo.</p>
-            <div class="características">
-                <p>Adelgazar</p>  <!--¿Barras con bootstrap?-->
-                <p>Fuerza</p>
-                <p>Intensidad</p>
-            </div>
-            <img src="../Imágenes/Estiramientp.jpg" alt="ESTIRAMIENTO"> <!--RECORTAR IMAGEN ESTIRAMIENTO-->
+        <div class="estiramiento row my-5 border-top">
+            <div class="col-lg-7">
+                <h2 class="text-center m-3">ESTIRAMIENTO</h2>
+                <p>Las clases de estiramiento son excelentes para aquellos que buscan un gran enfoque para reducir el estrés que se acumula en el cuerpo durante nuestra vida cotidiana. Esta clase te enseñará a conocer tu cuerpo y mejorar tu fuerza y ​​flexibilidad a través de una serie de ejercicios guiados por nuestros mejores entrenadores. Con estas sesiones maximizarás los resultados positivos que el estiramiento ofrece a tu mente y cuerpo.</p>
+                <div class="características">
+                    <p>Adelgazar</p>  <!--¿Barras con bootstrap?-->
+                    <p>Fuerza</p>
+                    <p>Intensidad</p>
+                </div>
+        </div>
+        <div class="col-5 d-none d-lg-block">
+            <img src="../Imágenes/Estiramientp.jpg" alt="ESTIRAMIENTO" class="img-fluid"> <!--RECORTAR IMAGEN ESTIRAMIENTO-->
         </div>
     </main>
 
@@ -109,7 +121,7 @@
     <div class="bg-light pt-2">
         <footer class="mt-5 py-5 border-top container">
             <div class="row">
-                <div class="empresa col-3">
+                <div class="empresa col mx-5">
                     <a class="d-inline-flex align-items-center text-decoration-none link-dark" href="index.html"> <!--¿CLASE?-->
                         <img src="../Imágenes/Logo.jpg" alt="Logo" width="30" height="auto" class="mr-x-1">
                         <span class="fs-4">Puls</span>
@@ -119,7 +131,7 @@
                         <li>Playa San Juan, Alicante - España</li>
                     </ul>
                 </div>
-                <div class="tags col-3">
+                <div class="tags col d-none d-lg-block">
                     <h4>Tags</h4>
                     <button type="button" class="btn btn-outline-secondary d-inline-block btn-sm m-1">FUNCIONAL</button>
                     <button type="button" class="btn btn-outline-secondary d-inline-block btn-sm m-1">SALUD</button>
@@ -127,7 +139,7 @@
                     <button type="button" class="btn btn-outline-secondary d-inline-block btn-sm m-1">AIRE LIBRE</button>
                     <button type="button" class="btn btn-outline-secondary d-inline-block btn-sm m-1">ENTRENAMIENTO</button>
                 </div>
-                <div class="social col-3">
+                <div class="social col">
                     <h4>Social</h4>
                     <ul class="list-unstyled">  
                         <li class="nav-item">
@@ -142,7 +154,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="about col-3">
+                <div class="about col">
                     <h4>Links</h4>
                     <ul class="nav flex-column">
                         <li class="nav-item"><a class="nav-link text-muted" href="../index.html">Home</a></li><!-- Hacer que suba -->

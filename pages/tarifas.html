@@ -92,6 +92,29 @@
         </form>
     </section>
 
+    <form class="border rounded">
+        <div class="form-row">
+            <div class="col">
+                <label for="nombre">Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+            </div>
+            <div class="col">
+                <label for="apellido">Apellido</label>
+              <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" placeholder="email" name="email" id="email">          
+        </div>
+       
+        <div class="form-group">
+            <label for="preferencia">Clase de preferencia</label>
+            <textarea class="form-control" id="preferencia" rows="3" placeholder="Dinos tu horario y tipo de clase de preferencia"></textarea>
+          </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
 
 
 
@@ -105,11 +128,10 @@
 
 
 
-
-        <div class="bg-light pt-2">
+    <div class="bg-light pt-2">
         <footer class="mt-5 py-5 border-top container">
             <div class="row">
-                <div class="empresa col-3">
+                <div class="empresa col mx-5">
                     <a class="d-inline-flex align-items-center text-decoration-none link-dark" href="index.html"> <!--¿CLASE?-->
                         <img src="../Imágenes/Logo.jpg" alt="Logo" width="30" height="auto" class="mr-x-1">
                         <span class="fs-4">Puls</span>
@@ -119,7 +141,7 @@
                         <li>Playa San Juan, Alicante - España</li>
                     </ul>
                 </div>
-                <div class="tags col-3">
+                <div class="tags col d-none d-lg-block">
                     <h4>Tags</h4>
                     <button type="button" class="btn btn-outline-secondary d-inline-block btn-sm m-1">FUNCIONAL</button>
                     <button type="button" class="btn btn-outline-secondary d-inline-block btn-sm m-1">SALUD</button>
@@ -127,7 +149,7 @@
                     <button type="button" class="btn btn-outline-secondary d-inline-block btn-sm m-1">AIRE LIBRE</button>
                     <button type="button" class="btn btn-outline-secondary d-inline-block btn-sm m-1">ENTRENAMIENTO</button>
                 </div>
-                <div class="social col-3">
+                <div class="social col">
                     <h4>Social</h4>
                     <ul class="list-unstyled">  
                         <li class="nav-item">
@@ -142,7 +164,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="about col-3">
+                <div class="about col">
                     <h4>Links</h4>
                     <ul class="nav flex-column">
                         <li class="nav-item"><a class="nav-link text-muted" href="../index.html">Home</a></li><!-- Hacer que suba -->
