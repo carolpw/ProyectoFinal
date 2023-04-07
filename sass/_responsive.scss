@@ -1,0 +1,14 @@
+
+
+@media (max-width: 1100px) {
+    .características {
+      flex-direction: column;
+      align-items: center;
+    }
+}
+
+@media (max-width:1000px) {
+    .grupo img {
+        display: none;
+    }
+}
