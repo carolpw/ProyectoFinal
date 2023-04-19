@@ -1,5 +1,12 @@
 @import 'responsive';
 
+
+* {
+    font-family: 'Roboto';
+}
+
+
+
 .banner {
     background-color: rgb(170, 20, 20);
     height: 350px;
@@ -13,6 +20,8 @@
      h1 {
         font-size: 50px;    
         margin: 20px;
+        text-shadow: 2px 2px 2px #050505;
+        font-weight: 700;
     }
 
     div {
@@ -72,7 +81,8 @@
 .grupo {
     display: flex;
     height: 300px;
-    background-color: rgb(227, 224, 223);
+    background-color: rgb(247, 247, 247);
+    margin-bottom: 100px;
 
     img {
     height: 300px;
@@ -101,13 +111,14 @@
     
     div{
         border: solid;
+        border-width: 1px;
         border-radius: 10px;
         display: flex;
         align-items: center;
         flex-direction: column;
         justify-content: center;
         padding: 20px;
-        background-color: rgb(236, 236, 236);
+        background-color: rgb(247, 247, 247);
     }
 }
 
@@ -144,3 +155,4 @@
     justify-content: center;
     
 }
+

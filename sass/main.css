@@ -10,6 +10,10 @@
     display: none;
   }
 }
+* {
+  font-family: "Roboto";
+}
+
 .banner {
   background-color: rgb(170, 20, 20);
   height: 350px;
@@ -23,6 +27,8 @@
 .banner h1 {
   font-size: 50px;
   margin: 20px;
+  text-shadow: 2px 2px 2px #050505;
+  font-weight: 700;
 }
 .banner div {
   margin: 20px 20px 0 20px;
@@ -73,7 +79,8 @@
 .grupo {
   display: flex;
   height: 300px;
-  background-color: rgb(227, 224, 223);
+  background-color: rgb(247, 247, 247);
+  margin-bottom: 100px;
 }
 .grupo img {
   height: 300px;
@@ -99,13 +106,14 @@
 }
 .suscripción div {
   border: solid;
+  border-width: 1px;
   border-radius: 10px;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
   padding: 20px;
-  background-color: rgb(236, 236, 236);
+  background-color: rgb(247, 247, 247);
 }
 
 .contacto {
