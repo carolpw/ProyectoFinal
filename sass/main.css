@@ -10,10 +10,6 @@
     display: none;
   }
 }
-* {
-  font-family: "Roboto";
-}
-
 .banner {
   background-color: rgb(170, 20, 20);
   height: 350px;
@@ -66,11 +62,20 @@
   align-items: center;
   justify-content: center;
 }
+.características .ritmoCardíaco {
+  transition-duration: 1s;
+}
 .características .ritmoCardíaco:hover {
   transform: scale(1.1);
 }
+.características .holístico {
+  transition-duration: 1s;
+}
 .características .holístico:hover {
   transform: scale(1.1);
+}
+.características .habilidades {
+  transition-duration: 1s;
 }
 .características .habilidades:hover {
   transform: scale(1.1);
@@ -116,37 +121,6 @@
   background-color: rgb(247, 247, 247);
 }
 
-.contacto {
-  margin: 20px;
-}
-.contacto h3 {
-  padding: 10px;
-}
-.contacto .redes2 {
-  margin-top: 100px;
-}
-
-.faq {
-  margin: 50px;
-  padding: 0 50px 0 50px;
-}
-.faq h3 {
-  padding: 10px;
-}
-.faq h5 {
-  padding-top: 10px;
-}
-
-.prueba {
-  display: flex;
-  justify-content: center;
-}
-.prueba .formulario {
-  width: 60%;
-  border: solid;
-  border-radius: 2px;
-}
-
 .horarios {
   display: flex;
   justify-content: center;
@@ -168,6 +142,43 @@ td:hover {
   font-weight: bold;
 }
 
+.prueba {
+  display: flex;
+  justify-content: center;
+}
+.prueba .formulario {
+  width: 60%;
+  border: solid;
+  border-radius: 2px;
+}
+
 .formulario {
   background-color: rgb(247, 247, 247);
+}
+
+.contacto {
+  margin: 20px;
+}
+.contacto h3 {
+  padding: 10px;
+}
+
+@media (min-width: 768px) {
+  .redes2 {
+    margin-top: 80px;
+  }
+}
+.faq {
+  margin: 50px;
+  padding: 0 50px 0 50px;
+}
+.faq h3 {
+  padding: 10px;
+}
+.faq h5 {
+  padding-top: 10px;
+}
+
+* {
+  font-family: "Roboto";
 }/*# sourceMappingURL=main.css.map */

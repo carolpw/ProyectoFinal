@@ -1,0 +1,13 @@
+.prueba {
+    display: flex;
+    justify-content: center;
+    .formulario {
+        width: 60%;
+        border: solid;
+        border-radius: 2px;        
+    }
+}
+
+.formulario {
+    background-color: rgb(247, 247, 247);
+}

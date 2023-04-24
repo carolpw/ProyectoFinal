@@ -1,0 +1,21 @@
+.horarios {
+    display: flex;
+    justify-content: center;
+
+    th, td {
+    border: 1px solid rgb(157, 157, 157);
+    border-collapse: collapse;
+    text-align: center;
+    padding: 2px;
+    width: 90px;
+  }
+}
+
+tbody {
+    overflow-x: auto;
+}
+
+td:hover {
+    background-color: rgba(182, 0, 0, 0.877);
+    font-weight: bold;}
+
