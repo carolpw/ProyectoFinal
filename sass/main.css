@@ -116,28 +116,20 @@
   background-color: rgb(247, 247, 247);
 }
 
-.horarios {
-  overflow-x: scroll;
-}
-.horarios th, .horarios td {
-  border: 1px solid rgb(157, 157, 157);
-  border-collapse: collapse;
-  text-align: center;
-  padding: 2px;
-}
-
-td:hover {
-  background-color: rgba(182, 0, 0, 0.877);
-  font-weight: bold;
-}
-
 .contacto {
   margin: 20px;
 }
 .contacto h3 {
   padding: 10px;
 }
+.contacto .redes2 {
+  margin-top: 100px;
+}
 
+.faq {
+  margin: 50px;
+  padding: 0 50px 0 50px;
+}
 .faq h3 {
   padding: 10px;
 }
@@ -158,4 +150,24 @@ td:hover {
 .horarios {
   display: flex;
   justify-content: center;
+}
+.horarios th, .horarios td {
+  border: 1px solid rgb(157, 157, 157);
+  border-collapse: collapse;
+  text-align: center;
+  padding: 2px;
+  width: 90px;
+}
+
+tbody {
+  overflow-x: auto;
+}
+
+td:hover {
+  background-color: rgba(182, 0, 0, 0.877);
+  font-weight: bold;
+}
+
+.formulario {
+  background-color: rgb(247, 247, 247);
 }/*# sourceMappingURL=main.css.map */
