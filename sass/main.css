@@ -11,7 +11,7 @@
   }
 }
 .banner {
-  background-color: rgb(170, 20, 20);
+  /* background-color: rgb(170, 20, 20); */
   height: 350px;
   display: flex;
   justify-content: center;
@@ -19,6 +19,9 @@
   align-items: center;
   text-align: center;
   color: black;
+  background-image: url(../Imágenes/Arena.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 .banner h1 {
   font-size: 50px;
@@ -124,6 +127,7 @@
 .horarios {
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
 }
 .horarios th, .horarios td {
   border: 1px solid rgb(157, 157, 157);
